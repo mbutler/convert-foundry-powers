@@ -1,0 +1,178 @@
+{
+   "name":"New Atwill Power",
+   "dope": "23",
+   "type":"power",
+   "data":{
+      "description":{
+         "value":"",
+         "chat":"",
+         "unidentified":""
+      },
+      "source":"",
+      "activation":{
+         "type":"",
+         "cost":0,
+         "condition":""
+      },
+      "duration":{
+         "value":null,
+         "units":""
+      },
+      "target":"One Creature",
+      "range":{
+         "value":null,
+         "long":null,
+         "units":""
+      },
+      "uses":{
+         "value":0,
+         "max":0,
+         "per":""
+      },
+      "consume":{
+         "type":"",
+         "target":"",
+         "amount":null
+      },
+      "ability":null,
+      "actionType":"reaction",
+      "attackBonus":0,
+      "chatFlavor":"",
+      "critical":null,
+      "damage":{
+         "parts":[
+            
+         ],
+         "versatile":""
+      },
+      "damageCrit":{
+         "parts":[
+            
+         ],
+         "versatile":""
+      },
+      "damageImp":{
+         "parts":[
+            
+         ],
+         "versatile":""
+      },
+      "damageCritImp":{
+         "parts":[
+            
+         ],
+         "versatile":""
+      },
+      "formula":"",
+      "save":{
+         "ability":"",
+         "dc":null,
+         "scaling":"spell"
+      },
+      "macro":{
+         "type":"script",
+         "scope":"global",
+         "launchOrder":"off",
+         "command":"",
+         "author":""
+      },
+      "keyWords":[
+         ""
+      ],
+      "level":"1",
+      "powersource":"martial",
+      "subName":"",
+      "prepared":true,
+      "powerType":"class",
+      "useType":"atwill",
+      "requirements":"",
+      "weaponType":"melee",
+      "weaponUse":"default",
+      "rangeType":"weapon",
+      "rangeTextShort":"",
+      "rangeText":"",
+      "rangePower":null,
+      "area":0,
+      "rechargeRoll":"",
+      "damageShare":false,
+      "postEffect":true,
+      "postSpecial":true,
+      "sustain":{
+         "actionType":"none",
+         "detail":""
+      },
+      "attack":{
+         "isAttack":true,
+         "ability":"str",
+         "abilityBonus":0,
+         "def":"ac",
+         "defBonus":0,
+         "formula":"1d20+@wepAttack+@powerMod+@lvhalf",
+         "damageType":{
+            
+         },
+         "effectType":{
+            
+         }
+      },
+      "hit":{
+         "isDamage":true,
+         "detail":"1[W] + Strength modifier damage.",
+         "formula":"@wepDice(1) + @powerMod + @wepDamage",
+         "critFormula":"@wepMax * 1 + @powerMod + @wepDamage + @wepCritBonus"
+      },
+      "miss":{
+         "detail":"Half Damage.",
+         "formula":"@{damageFormula}/2"
+      },
+      "effect":{
+         "detail":""
+      },
+      "trigger":"",
+      "requirement":"",
+      "special":"",
+      "damageType":{
+         "damage":false,
+         "acid":false,
+         "cold":false,
+         "fire":false,
+         "force":false,
+         "lightning":false,
+         "necrotic":false,
+         "physical":false,
+         "poison":false,
+         "psychic":false,
+         "radiant":false,
+         "thunder":false
+      },
+      "effectType":{
+         "beast":false,
+         "beastForm":false,
+         "charm":false,
+         "conjuration":false,
+         "fear":false,
+         "healing":false,
+         "illusion":false,
+         "invigorating":false,
+         "poison":false,
+         "polymorph":false,
+         "rage":false,
+         "rattling":false,
+         "reliable":false,
+         "sleep":false,
+         "spirit":false,
+         "stance":false,
+         "summoning":false,
+         "teleportation":false,
+         "zone":false
+      }
+   },
+   "sort":700000,
+   "flags":{
+      
+   },
+   "effects":[
+      
+   ],
+   "img":"icons/svg/mystery-man.svg"
+}
